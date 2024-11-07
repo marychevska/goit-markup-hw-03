@@ -3,23 +3,52 @@ body {
     color: #434455;
     background-color: #FFFFFF;
 }
-
+/*common*/
 ul, ol {
     list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
 a {
     text-decoration: none;
 }
 
+.container {
+    max-width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.section {
+    padding: 120px 0;
+}
 p {
     font-weight: 400;
 }
+/*header*/
 
 .header {
     background-color: #fff;
+    border-bottom: 1px solid #e7e9fc;
 }
-
+.header-container {
+    display: flex;
+    align-items: center;
+}
+.header-nav {
+    display: flex;
+    align-items: center;
+}
 .logo {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
@@ -30,6 +59,11 @@ p {
     color: #4d5ae5;
 }
 
+.header-logo {
+    padding: 24px 0;
+    margin-right: 76px;
+}
+
 .header-logo .logo-part {
     color: #2e2f42;
 }
@@ -38,7 +72,15 @@ p {
     color: #f4f4fd;
 }
 
+.nav-list {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
 .nav-link {
+    display: block;
+    padding: 24px 0;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -48,9 +90,18 @@ p {
 
 .contacts {
     font-style: normal;
+    margin-left: auto;
+}
+
+.contacts-list {
+    gap: 40px;
+    display: flex;
+    align-items: center;
 }
 
 .contacts-link {
+    display: block;
+    padding: 24px 0;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -64,11 +115,14 @@ p {
     color: #404bbf;
 }
 
+/*section-hero*/
+
 .hero {
     background-color: #2e2f42;
 }
 
 .hero-title {
+    margin: 188px 472px 292px;
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
@@ -77,6 +131,9 @@ p {
 }
 
 .hero-button {
+    display: flex;
+    margin: 356px 635px 188px;
+    padding-top: 48px;
     background-color: #4D5AE5;
     font-family: inherit;
     font-weight: 500;
@@ -90,6 +147,12 @@ p {
 .hero-button:hover,
 .hero-button:focus {
     background-color: #404bbf;
+}
+
+/*features*/
+
+.features-item {
+    flex-basis: calc((100% - 72px) / 3);
 }
 
 .features-subtitle {
@@ -107,6 +170,8 @@ p {
     color: #434455;
 }
 
+/*team*/
+
 .team {
     background-color: #F4F4FD;
 }
@@ -122,8 +187,13 @@ p {
 
 .team-card {
     background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
 }
-
+.card .first-card {
+    padding: 292px 16px 32px;
+    
+}
 .team-subtitle {
     font-weight: 500;
     font-size: 20px;

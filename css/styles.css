@@ -39,7 +39,7 @@ p {
 }
 /*header*/
 
-.header {
+.page-header {
     background-color: #fff;
     border-bottom: 1px solid #e7e9fc;
 }
@@ -305,7 +305,7 @@ border-radius: 0px 0px 4px 4px;
     background-color: #2e2f42;
 }
 
-.logo footer-logo {
+.logo .footer-logo {
     display: inline-block;
     margin-bottom: 16px;
     color: #f4f4fd;
@@ -318,7 +318,7 @@ border-radius: 0px 0px 4px 4px;
     letter-spacing: 0.02em;
 }
 
-.a .footer-logo {
+.footer-logo {
     display: inline-block;
     margin-bottom: 16px;
 }

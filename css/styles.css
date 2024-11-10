@@ -125,7 +125,7 @@ p {
 }
 
 .hero-title {
-    margin: 188px 472px 292px;
+    margin: 0 auto 48px;
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
@@ -140,8 +140,7 @@ p {
     height: 56px;
     border: none;
     border-radius: 4px;
-    margin: 356px 635px 188px;
-    padding-top: 48px;
+    margin: 0 auto;
     background-color: #4d5ae5;
     font-family: inherit;
     font-weight: 500;
@@ -221,8 +220,7 @@ p {
 
 .team-card {
     background-color: #FFFFFF;
-    display: flex;
-    flex-direction: column;
+
 }
 
 .team-card {
